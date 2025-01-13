@@ -1,7 +1,9 @@
+import LeafletMap from "./components/leaflet-map/LeafletMap.tsx";
+
 const App = () => {
     return (
-        <div>
-
+        <div className="app">
+            <LeafletMap/>
         </div>
     );
 };
